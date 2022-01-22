@@ -1,0 +1,132 @@
+
+#menu1, #menu2{
+    font-weight: bold;
+    color:white ;
+    background-color: #49006e;
+    border: 2px solid #49006e;
+    text-align: center;
+    width: 300px;
+    margin: 30px;
+
+}
+#menu1{
+    position: absolute;
+    right: 0;
+    top: 14%;
+}
+
+#menu2{
+    position: absolute;
+    right: 0; 
+    top: 60%; 
+}
+
+div:hover ul{
+    display: block;
+}
+
+#head:hover ol {
+    display: block; 
+}
+
+#tBox:hover ol {
+    display: block; 
+}
+
+#btns:hover ol{
+    display: block;
+}
+
+div ul{
+    list-style :none;
+    margin: 0;
+    padding: 0;
+    display: none;
+    }
+    
+
+/* basics*/
+div ul li:hover{
+    background-color: white;
+    color:#49006e;
+    cursor: pointer;
+}
+
+div ul li{
+    border-top: 2px solid #49006e;
+}
+
+
+/* sub mens*/
+div ul ol li:hover{
+    background-color: #e7d5f0;
+    color: white;
+    cursor: pointer;
+}
+
+div ul ol{
+    list-style :none;
+    margin: 0;
+    padding: 0;
+    display: none;
+    }
+
+
+    /*custimize themes menu*/
+    #menu2 #blue:hover{
+        background-color: #b8dce6;
+        color: white;
+    }
+
+    #menu2 #yell:hover{
+        background-color: #f5d493;
+        color: white;
+    }
+
+#title2{
+
+position: absolute;
+text-align: center;
+color: #49006e;
+top: 6%;
+margin-left: 8%;
+
+}   
+
+#logo{
+    position: absolute;
+    left: -1ex;
+    top: 2%;
+
+}
+
+#result{
+    position: absolute;
+    width: 50%;
+    top:22%;
+    left: 10%;
+    background-color: lightgray;
+  
+}
+
+#footer{
+   position:relative;
+    width: 100%;
+    background-color: #49006e;
+    color: white;
+    margin-bottom:0;
+    text-align: center;
+   margin-top: 100%;
+
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+a:visited{
+    color: white;
+}
+
+
+
